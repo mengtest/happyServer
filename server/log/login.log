@@ -1,0 +1,486 @@
+[:00000001] LAUNCH logger ./server/log/login.log
+[:00000002] LAUNCH snlua bootstrap
+[:00000003] LAUNCH snlua launcher
+[:00000004] LAUNCH snlua cdummy
+[:00000005] LAUNCH harbor 0 4
+[:00000006] LAUNCH snlua datacenterd
+[:00000007] LAUNCH snlua service_mgr
+[:00000008] LAUNCH snlua mainLogin
+[:00000009] LAUNCH snlua xLogService
+[:0000000a] LAUNCH snlua mysqlConnect
+[:0000000b] LAUNCH snlua ls_login
+[:0000000c] LAUNCH snlua ls_fqzs
+[:0000000d] LAUNCH snlua ls_telnet 5001
+[:0000000d] Start debug console at 127.0.0.1 5001
+[:0000000e] LAUNCH snlua watchDog
+[:0000000f] LAUNCH snlua gate
+[:0000000f] Listen on 0.0.0.0:5000
+[:00000008] KILL self
+[:00000002] KILL self
+[:0000000e] New client from : 125.119.9.109:55648
+[:00000010] LAUNCH snlua agent
+[:00000010] KILL self
+[:0000000e] New client from : 125.119.9.109:55665
+[:00000012] LAUNCH snlua agent
+[:00000012] KILL self
+[:0000000e] New client from : 125.119.9.109:55951
+[:00000018] LAUNCH snlua agent
+[:00000018] KILL self
+[:0000000e] New client from : 125.119.9.109:56328
+[:00000020] LAUNCH snlua agent
+[:00000020] KILL self
+[:0000000e] New client from : 125.119.9.109:56404
+[:00000022] LAUNCH snlua agent
+[:00000022] KILL self
+[:0000000e] New client from : 125.119.9.109:56505
+[:00000028] LAUNCH snlua agent
+[:00000028] KILL self
+[:0000000e] New client from : 125.119.9.109:57168
+[:00000030] LAUNCH snlua agent
+[:00000030] KILL self
+[:0000000e] New client from : 125.119.9.109:57331
+[:00000032] LAUNCH snlua agent
+[:00000032] KILL self
+[:0000000e] New client from : 125.119.9.109:57488
+[:00000038] LAUNCH snlua agent
+[:00000038] KILL self
+[:0000000e] New client from : 117.136.81.15:50682
+[:00000040] LAUNCH snlua agent
+[:0000000b] ls_login: 执行错误 protocalNo=0x000101:./server/service/ls_login.lua:81: bad argument #2 to 'format' (number expected, got nil)
+stack traceback:
+	[C]: in function 'string.format'
+	./server/service/ls_login.lua:81: in function <./server/service/ls_login.lua:80>
+	[C]: in function 'xpcall'
+	./server/lib/serviceHelper.lua:33: in field 'func'
+	./server/lib/serviceHelper.lua:70: in upvalue 'f'
+	./lualib/skynet.lua:110: in function <./lualib/skynet.lua:104>
+[:00000040] 返回错误
+[:00000040] KILL self
+[:0000000e] New client from : 117.136.83.89:44068
+[:00000042] LAUNCH snlua agent
+[:0000000b] ls_login: 执行错误 protocalNo=0x000101:./server/service/ls_login.lua:81: bad argument #2 to 'format' (number expected, got nil)
+stack traceback:
+	[C]: in function 'string.format'
+	./server/service/ls_login.lua:81: in function <./server/service/ls_login.lua:80>
+	[C]: in function 'xpcall'
+	./server/lib/serviceHelper.lua:33: in field 'func'
+	./server/lib/serviceHelper.lua:70: in upvalue 'f'
+	./lualib/skynet.lua:110: in function <./lualib/skynet.lua:104>
+[:00000042] 返回错误
+[:00000042] KILL self
+[:0000000e] New client from : 117.136.52.63:44810
+[:00000048] LAUNCH snlua agent
+[:0000000b] ls_login: 执行错误 protocalNo=0x000101:./server/service/ls_login.lua:81: bad argument #2 to 'format' (number expected, got nil)
+stack traceback:
+	[C]: in function 'string.format'
+	./server/service/ls_login.lua:81: in function <./server/service/ls_login.lua:80>
+	[C]: in function 'xpcall'
+	./server/lib/serviceHelper.lua:33: in field 'func'
+	./server/lib/serviceHelper.lua:70: in upvalue 'f'
+	./lualib/skynet.lua:110: in function <./lualib/skynet.lua:104>
+[:00000048] 返回错误
+[:00000048] KILL self
+[:0000000e] New client from : 122.233.176.110:63458
+[:00000050] LAUNCH snlua agent
+[:00000050] KILL self
+[:0000000e] New client from : 122.233.176.110:64366
+[:00000052] LAUNCH snlua agent
+[:00000052] KILL self
+[:0000000e] New client from : 122.233.176.110:64496
+[:00000058] LAUNCH snlua agent
+[:00000058] KILL self
+[:0000000e] New client from : 122.233.176.110:64540
+[:00000060] LAUNCH snlua agent
+[:00000060] KILL self
+[:0000000e] New client from : 122.233.176.110:64974
+[:00000062] LAUNCH snlua agent
+[:00000062] KILL self
+[:0000000e] New client from : 122.233.176.110:65130
+[:00000068] LAUNCH snlua agent
+[:00000068] KILL self
+[:0000000e] New client from : 122.233.176.110:65241
+[:00000070] LAUNCH snlua agent
+[:00000070] KILL self
+[:0000000e] New client from : 89.248.172.110:24882
+[:00000072] LAUNCH snlua agent
+[:00000072] KILL self
+[:0000000e] New client from : 115.200.232.63:50121
+[:00000078] LAUNCH snlua agent
+[:00000078] KILL self
+[:0000000e] New client from : 115.200.232.63:50243
+[:00000080] LAUNCH snlua agent
+[:00000080] KILL self
+[:0000000e] New client from : 115.200.232.63:56547
+[:00000082] LAUNCH snlua agent
+[:00000082] KILL self
+[:0000000e] New client from : 115.200.232.63:53284
+[:00000088] LAUNCH snlua agent
+[:00000088] KILL self
+[:0000000e] New client from : 115.200.232.63:53366
+[:00000090] LAUNCH snlua agent
+[:00000090] KILL self
+[:0000000e] New client from : 115.200.232.63:53430
+[:00000092] LAUNCH snlua agent
+[:00000092] KILL self
+[:0000000e] New client from : 115.200.232.63:53480
+[:00000098] LAUNCH snlua agent
+[:00000098] KILL self
+[:0000000e] New client from : 115.200.232.63:53528
+[:000000a0] LAUNCH snlua agent
+[:000000a0] KILL self
+[:0000000e] New client from : 115.200.232.63:53573
+[:000000a2] LAUNCH snlua agent
+[:000000a2] KILL self
+[:0000000e] New client from : 115.200.232.63:53692
+[:000000a8] LAUNCH snlua agent
+[:000000a8] KILL self
+[:0000000e] New client from : 115.200.232.63:53395
+[:000000b0] LAUNCH snlua agent
+[:000000b0] KILL self
+[:0000000e] New client from : 115.200.232.63:49179
+[:000000b2] LAUNCH snlua agent
+[:000000b2] KILL self
+[:0000000e] New client from : 115.200.232.63:49332
+[:000000b8] LAUNCH snlua agent
+[:000000b8] KILL self
+[:0000000e] New client from : 115.200.232.63:49382
+[:000000c0] LAUNCH snlua agent
+[:000000c0] KILL self
+[:0000000e] New client from : 115.200.232.63:49413
+[:000000c2] LAUNCH snlua agent
+[:000000c2] KILL self
+[:0000000e] New client from : 115.200.232.63:49434
+[:000000c8] LAUNCH snlua agent
+[:000000c8] KILL self
+[:0000000e] New client from : 115.200.232.63:49473
+[:000000d0] LAUNCH snlua agent
+[:000000d0] KILL self
+[:0000000e] New client from : 115.200.232.63:49622
+[:000000d2] LAUNCH snlua agent
+[:000000d2] KILL self
+[:0000000e] New client from : 115.200.232.63:49679
+[:000000d8] LAUNCH snlua agent
+[:000000d8] KILL self
+[:0000000e] New client from : 115.200.232.63:49714
+[:000000e0] LAUNCH snlua agent
+[:000000e0] KILL self
+[:0000000e] New client from : 115.200.232.63:49813
+[:000000e2] LAUNCH snlua agent
+[:000000e2] KILL self
+[:0000000e] New client from : 115.200.232.63:49857
+[:000000e8] LAUNCH snlua agent
+[:000000e8] KILL self
+[:0000000e] New client from : 115.200.232.63:50033
+[:000000f0] LAUNCH snlua agent
+[:000000f0] KILL self
+[:0000000e] New client from : 115.200.232.63:50104
+[:000000f2] LAUNCH snlua agent
+[:000000f2] KILL self
+[:0000000e] New client from : 115.200.232.63:50169
+[:000000f8] LAUNCH snlua agent
+[:000000f8] KILL self
+[:0000000e] New client from : 115.200.232.63:50219
+[:00000100] LAUNCH snlua agent
+[:00000100] KILL self
+[:0000000e] New client from : 115.200.232.63:50256
+[:00000102] LAUNCH snlua agent
+[:00000102] KILL self
+[:0000000e] New client from : 115.200.232.63:50331
+[:00000108] LAUNCH snlua agent
+[:00000108] KILL self
+[:0000000e] New client from : 115.200.232.63:50361
+[:00000110] LAUNCH snlua agent
+[:00000110] KILL self
+[:0000000e] New client from : 115.200.232.63:50396
+[:00000112] LAUNCH snlua agent
+[:00000112] KILL self
+[:0000000e] New client from : 115.200.232.63:50432
+[:00000118] LAUNCH snlua agent
+[:00000118] KILL self
+[:0000000e] New client from : 115.200.232.63:50460
+[:00000120] LAUNCH snlua agent
+[:00000120] KILL self
+[:0000000e] New client from : 115.200.232.63:50493
+[:00000122] LAUNCH snlua agent
+[:00000122] KILL self
+[:0000000e] New client from : 115.200.232.63:50530
+[:00000128] LAUNCH snlua agent
+[:00000128] KILL self
+[:0000000e] New client from : 115.200.232.63:50566
+[:00000130] LAUNCH snlua agent
+[:00000130] KILL self
+[:0000000e] New client from : 115.200.232.63:50633
+[:00000132] LAUNCH snlua agent
+[:00000132] KILL self
+[:0000000e] New client from : 115.200.232.63:50660
+[:00000138] LAUNCH snlua agent
+[:00000138] KILL self
+[:0000000e] New client from : 115.200.232.63:50707
+[:00000140] LAUNCH snlua agent
+[:00000140] KILL self
+[:0000000e] New client from : 115.200.232.63:50745
+[:00000142] LAUNCH snlua agent
+[:00000142] KILL self
+[:0000000e] New client from : 115.200.232.63:50841
+[:00000148] LAUNCH snlua agent
+[:00000148] KILL self
+[:0000000e] New client from : 115.200.232.63:50899
+[:00000150] LAUNCH snlua agent
+[:00000150] KILL self
+[:0000000e] New client from : 115.200.232.63:50942
+[:00000152] LAUNCH snlua agent
+[:00000152] KILL self
+[:0000000e] New client from : 115.200.232.63:50991
+[:00000158] LAUNCH snlua agent
+[:00000158] KILL self
+[:0000000e] New client from : 115.200.232.63:51020
+[:00000160] LAUNCH snlua agent
+[:00000160] KILL self
+[:0000000e] New client from : 115.200.232.63:51052
+[:00000162] LAUNCH snlua agent
+[:00000162] KILL self
+[:0000000e] New client from : 115.200.232.63:51087
+[:00000168] LAUNCH snlua agent
+[:00000168] KILL self
+[:0000000e] New client from : 115.200.232.63:51124
+[:00000170] LAUNCH snlua agent
+[:00000170] KILL self
+[:0000000e] New client from : 115.200.232.63:51207
+[:00000172] LAUNCH snlua agent
+[:00000172] KILL self
+[:0000000e] New client from : 115.200.232.63:51292
+[:00000178] LAUNCH snlua agent
+[:00000178] KILL self
+[:0000000e] New client from : 115.200.232.63:51457
+[:00000180] LAUNCH snlua agent
+[:00000180] KILL self
+[:0000000e] New client from : 115.200.232.63:51633
+[:00000182] LAUNCH snlua agent
+[:00000182] KILL self
+[:0000000e] New client from : 115.200.232.63:51678
+[:00000188] LAUNCH snlua agent
+[:00000188] KILL self
+[:0000000e] New client from : 115.200.232.63:52451
+[:00000190] LAUNCH snlua agent
+[:00000190] KILL self
+[:0000000e] New client from : 115.200.232.63:52563
+[:00000192] LAUNCH snlua agent
+[:00000192] KILL self
+[:0000000e] New client from : 115.200.232.63:52634
+[:00000198] LAUNCH snlua agent
+[:00000198] KILL self
+[:0000000e] New client from : 115.200.232.63:52992
+[:000001a0] LAUNCH snlua agent
+[:000001a0] KILL self
+[:0000000e] New client from : 115.200.232.63:53075
+[:000001a2] LAUNCH snlua agent
+[:000001a2] KILL self
+[:0000000e] New client from : 115.200.232.63:53188
+[:000001a8] LAUNCH snlua agent
+[:000001a8] KILL self
+[:0000000e] New client from : 115.200.232.63:53338
+[:000001b0] LAUNCH snlua agent
+[:000001b0] KILL self
+[:0000000e] New client from : 36.44.97.179:32316
+[:000001b2] LAUNCH snlua agent
+[:000001b2] KILL self
+[:0000000e] New client from : 117.36.20.39:23526
+[:000001b8] LAUNCH snlua agent
+[:000001b8] KILL self
+[:0000000e] New client from : 125.76.177.134:58942
+[:000001c0] LAUNCH snlua agent
+[:000001c0] KILL self
+[:0000000e] New client from : 36.47.177.80:49593
+[:000001c2] LAUNCH snlua agent
+[:000001c2] lua call [f to :1c2 : 0 msgsz = 30] error : [31m./lualib/skynet.lua:518: ./server/service/agent.lua:76: parse net packet failed, checksum error
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:518: in function 'skynet.dispatch_message'[0m
+[:000001c2] KILL self
+[:0000000e] New client from : 113.135.98.40:24171
+[:000001c8] LAUNCH snlua agent
+[:000001c8] lua call [f to :1c8 : 0 msgsz = 0] error : [31m./lualib/skynet.lua:518: ./server/service/agent.lua:76: parse net packet failed, invalid format
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:518: in function 'skynet.dispatch_message'[0m
+[:000001c8] lua call [f to :1c8 : 0 msgsz = 164] error : [31m./lualib/skynet.lua:518: ./server/service/agent.lua:76: parse net packet failed, checksum error
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:518: in function 'skynet.dispatch_message'[0m
+[:000001c8] KILL self
+[:0000000e] New client from : 124.114.171.76:453
+[:000001d0] LAUNCH snlua agent
+[:000001d0] lua call [f to :1d0 : 0 msgsz = 0] error : [31m./lualib/skynet.lua:518: ./server/service/agent.lua:76: parse net packet failed, invalid format
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:518: in function 'skynet.dispatch_message'[0m
+[:000001d0] lua call [f to :1d0 : 0 msgsz = 31] error : [31m./lualib/skynet.lua:518: ./server/service/agent.lua:76: parse net packet failed, checksum error
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:518: in function 'skynet.dispatch_message'[0m
+[:000001d0] KILL self
+[:0000000e] New client from : 113.135.98.40:24579
+[:000001d2] LAUNCH snlua agent
+[:000001d2] KILL self
+[:0000000e] New client from : 36.47.179.23:8746
+[:000001d8] LAUNCH snlua agent
+[:000001d8] KILL self
+[:0000000e] New client from : 36.44.98.73:64368
+[:000001e0] LAUNCH snlua agent
+[:000001e0] lua call [f to :1e0 : 0 msgsz = 12] error : [31m./lualib/skynet.lua:518: ./server/service/agent.lua:76: parse net packet failed, checksum error
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:518: in function 'skynet.dispatch_message'[0m
+[:000001e0] KILL self
+[:0000000e] New client from : 124.114.10.30:13696
+[:000001e2] LAUNCH snlua agent
+[:000001e2] KILL self
+[:0000000e] New client from : 117.22.144.251:37866
+[:000001e8] LAUNCH snlua agent
+[:000001e8] KILL self
+[:0000000e] New client from : 121.42.0.36:55496
+[:000001f0] LAUNCH snlua agent
+[:000001f0] KILL self
+[:0000000e] New client from : 122.233.176.224:63523
+[:000001f2] LAUNCH snlua agent
+[:000001f2] KILL self
+[:0000000e] New client from : 122.233.176.224:64019
+[:000001f8] LAUNCH snlua agent
+[:000001f8] KILL self
+[:0000000e] New client from : 122.233.176.224:64035
+[:00000200] LAUNCH snlua agent
+[:00000200] KILL self
+[:0000000e] New client from : 113.57.183.98:60896
+[:00000202] LAUNCH snlua agent
+[:0000000b] ls_login: 执行错误 protocalNo=0x000101:./server/service/ls_login.lua:81: bad argument #2 to 'format' (number expected, got nil)
+stack traceback:
+	[C]: in function 'string.format'
+	./server/service/ls_login.lua:81: in function <./server/service/ls_login.lua:80>
+	[C]: in function 'xpcall'
+	./server/lib/serviceHelper.lua:33: in field 'func'
+	./server/lib/serviceHelper.lua:70: in upvalue 'f'
+	./lualib/skynet.lua:110: in function <./lualib/skynet.lua:104>
+[:00000202] 返回错误
+[:00000202] KILL self
+[:0000000e] New client from : 218.0.221.95:62176
+[:00000208] LAUNCH snlua agent
+[:00000208] KILL self
+[:0000000e] New client from : 218.0.221.95:62187
+[:00000210] LAUNCH snlua agent
+[:00000210] KILL self
+[:0000000e] New client from : 183.128.218.32:47100
+[:00000212] LAUNCH snlua agent
+[:00000212] KILL self
+[:0000000e] New client from : 183.128.218.32:47845
+[:00000218] LAUNCH snlua agent
+[:00000218] KILL self
+[:0000000e] New client from : 183.128.218.32:59088
+[:00000220] LAUNCH snlua agent
+[:00000220] KILL self
+[:0000000e] New client from : 183.128.218.32:59116
+[:00000222] LAUNCH snlua agent
+[:00000222] KILL self
+[:0000000e] New client from : 183.128.218.32:48237
+[:00000228] LAUNCH snlua agent
+[:00000228] KILL self
+[:0000000e] New client from : 183.128.218.32:48301
+[:00000230] LAUNCH snlua agent
+[:00000230] KILL self
+[:0000000e] New client from : 104.152.52.75:39348
+[:00000232] LAUNCH snlua agent
+[:00000232] KILL self
+[:0000000e] New client from : 104.152.52.75:51176
+[:00000238] LAUNCH snlua agent
+[:00000238] KILL self
+[:0000000e] New client from : 104.152.52.75:38635
+[:00000240] LAUNCH snlua agent
+[:00000240] KILL self
+[:0000000e] New client from : 104.152.52.75:46356
+[:00000242] LAUNCH snlua agent
+[:00000242] KILL self
+[:0000000e] New client from : 104.152.52.75:54870
+[:00000248] LAUNCH snlua agent
+[:00000248] lua call [f to :248 : 0 msgsz = 30] error : [31m./lualib/skynet.lua:518: ./server/service/agent.lua:76: parse net packet failed, checksum error
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:518: in function 'skynet.dispatch_message'[0m
+[:00000248] KILL self
+[:0000000e] New client from : 104.152.52.75:35699
+[:00000250] LAUNCH snlua agent
+[:00000250] lua call [f to :250 : 0 msgsz = 0] error : [31m./lualib/skynet.lua:518: ./server/service/agent.lua:76: parse net packet failed, invalid format
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:518: in function 'skynet.dispatch_message'[0m
+[:00000250] lua call [f to :250 : 0 msgsz = 164] error : [31m./lualib/skynet.lua:518: ./server/service/agent.lua:76: parse net packet failed, checksum error
+stack traceback:
+	[C]: in function 'assert'
+	./lualib/skynet.lua:518: in function 'skynet.dispatch_message'[0m
+[:00000250] KILL self
+[:0000000e] New client from : 104.152.52.75:45506
+[:00000252] LAUNCH snlua agent
+[:00000252] KILL self
+[:0000000e] New client from : 121.42.0.84:4194
+[:00000258] LAUNCH snlua agent
+[:00000258] KILL self
+[:0000000e] New client from : 188.138.17.205:37677
+[:00000260] LAUNCH snlua agent
+[:00000260] KILL self
+[:0000000e] New client from : 121.42.0.88:38034
+[:00000262] LAUNCH snlua agent
+[:00000262] KILL self
+[:0000000e] New client from : 115.205.2.179:65434
+[:00000268] LAUNCH snlua agent
+[:00000268] KILL self
+[:0000000e] New client from : 115.205.2.179:53103
+[:00000270] LAUNCH snlua agent
+[:00000270] KILL self
+[:0000000e] New client from : 115.205.2.179:53120
+[:00000272] LAUNCH snlua agent
+[:00000272] KILL self
+[:0000000e] New client from : 115.205.2.179:53128
+[:00000278] LAUNCH snlua agent
+[:00000278] KILL self
+[:0000000e] New client from : 115.205.2.179:20484
+[:00000280] LAUNCH snlua agent
+[:00000280] KILL self
+[:0000000e] New client from : 115.205.2.179:53141
+[:00000282] LAUNCH snlua agent
+[:00000282] KILL self
+[:0000000e] New client from : 115.205.2.179:54558
+[:00000288] LAUNCH snlua agent
+[:00000288] KILL self
+[:0000000e] New client from : 115.205.2.179:54563
+[:00000290] LAUNCH snlua agent
+[:00000290] KILL self
+[:0000000e] New client from : 115.205.2.179:62225
+[:00000292] LAUNCH snlua agent
+[:00000292] KILL self
+[:0000000e] New client from : 115.205.2.179:62300
+[:00000298] LAUNCH snlua agent
+[:00000298] KILL self
+[:0000000e] New client from : 115.205.2.179:62349
+[:000002a0] LAUNCH snlua agent
+[:000002a0] KILL self
+[:0000000e] New client from : 115.205.2.179:62360
+[:000002a2] LAUNCH snlua agent
+[:000002a2] KILL self
+[:0000000e] New client from : 115.205.2.179:62373
+[:000002a8] LAUNCH snlua agent
+[:000002a8] KILL self
+[:0000000e] New client from : 115.205.2.179:62486
+[:000002b0] LAUNCH snlua agent
+[:000002b0] KILL self
+[:0000000e] New client from : 115.205.2.179:45797
+[:000002b2] LAUNCH snlua agent
+[:0000000e] New client from : 115.205.2.179:62598
+[:000002b8] LAUNCH snlua agent
+[:000002b8] KILL self
+[:0000000e] New client from : 115.205.2.179:62607
+[:000002c0] LAUNCH snlua agent
+[:000002c0] KILL self
+[:000002b2] KILL self
+[:0000000e] New client from : 115.205.2.179:62616
+[:000002c2] LAUNCH snlua agent
+[:000002c2] KILL self
+[:0000000e] New client from : 115.205.2.179:45847
+[:000002c8] LAUNCH snlua agent
